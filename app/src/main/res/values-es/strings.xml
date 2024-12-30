@@ -188,7 +188,6 @@
     <string name="edit_confirmexitdlg_save">Guardar</string>
     <string name="edit_confirmexitdlg_discard">Descartar</string>
     <!-- %s will be replaced with the menu_main name -->
-    <string name="edit_activity_title">Editar - %s</string>
     <!--  -->
     <string name="menu_edit_organize">Organizar</string>
     <string name="menu_edit_snap">Ajustar a la cuadrícula</string>

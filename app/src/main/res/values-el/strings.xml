@@ -188,7 +188,6 @@
     <string name="edit_confirmexitdlg_save">Αποθήκευση</string>
     <string name="edit_confirmexitdlg_discard">Απόρριψη</string>
     <!-- %s will be replaced with the menu_main name -->
-    <string name="edit_activity_title">Επεξεργασία - %s</string>
     <!--  -->
     <string name="menu_edit_organize">Οργάνωση</string>
     <string name="menu_edit_snap">Προσάρτηση στο πλέγμα</string>

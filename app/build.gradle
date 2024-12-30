@@ -6,6 +6,9 @@ android {
     defaultConfig {
         applicationId "us.spotco.ir_remote"
         minSdkVersion 24
+        compileOptions {
+            sourceCompatibility JavaVersion.VERSION_21
+            targetCompatibility JavaVersion.VERSION_21
         resourceConfigurations += ['en', 'el', 'es', 'it']
         targetSdk 35
     }
@@ -34,4 +37,5 @@ dependencies {
     implementation 'com.google.code.gson:gson:2.11.0'
     implementation 'org.jsoup:jsoup:1.18.3'
     implementation project(':libraries:androidlib')
+}
 }
