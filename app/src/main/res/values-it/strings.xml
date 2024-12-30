@@ -1,0 +1,353 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Telecomando IR</string>
+
+    <string name="db_menu_search_tit">Cerca</string>
+    <string name="db_menu_refresh">Aggiorna</string>
+    <string name="menu_save">Salva Telecomando</string>
+    <string name="db_search_hint_manufacturers">Cerca produttori</string>
+    <string name="db_search_hint_custom">Cerca %s</string>
+    <string name="db_search_hint_buttons">Cerca pulsanti</string>
+    <string name="db_select_manufacturer">Seleziona produttore</string>
+    <string name="db_select_device_type">Seleziona tipo di dispositivo</string>
+    <!--  -->
+    <string name="common_menu_todb">Altro</string>
+    <!--  -->
+    <string name="menu_action_delete_remote">Elimina Telecomando</string>
+    <string name="menu_action_rename">Rinomina Telecomando</string>
+    <string name="menu_action_edit">Modifica Telecomando</string>
+    <string name="menu_action_export">Esporta Telecomando</string>
+    <string name="menu_action_import">Importa Telecomando</string>
+    <string name="menu_action_share">Condividi Telecomando</string>
+    <string name="menu_action_learn">Impara</string>
+    <string name="menu_action_settings">Impostazioni</string>
+
+    <string name="share_remote_message">Condividi %s</string>
+    <string name="share_remote_failed">Condivisione del telecomando fallita</string>
+    <string name="export_remote_failed">Esportazione del telecomando fallita</string>
+    <string name="import_invalid">File del telecomando non valido</string>
+    <string name="import_notexist">File del telecomando non trovato</string>
+
+    <!-- Save -->
+    <string name="save_remote_title">Salva telecomando</string>
+    <string name="save_remote_text">Scegli un nome per il tuo telecomando.\nIl tuo nuovo telecomando apparirà nella sezione I miei telecomandi</string>
+    <string name="save_remote_hint">Nome del telecomando</string>
+    <string name="save_remote_save">Salva</string>
+    <string name="err_name_empty">Il nome del telecomando non può essere vuoto</string>
+    <!-- Rename -->
+    <string name="rename_remote_title">Rinomina telecomando</string>
+    <string name="rename_remote_message">Inserisci un nuovo nome per %s</string>
+    <string name="rename_remote_hint">Nuovo nome</string>
+    <string name="rename_remote_save">Rinomina</string>
+
+    <!--  -->
+    <string name="save_button_title">Salva pulsante</string>
+    <string name="select_remote">Seleziona un telecomando</string>
+    <string name="save_button_text_title">Nome del pulsante</string>
+    <string name="save_button_hint">Nome del pulsante</string>
+    <string name="save_button_save">Salva</string>
+    <string name="add_remote">Aggiungi telecomando</string>
+    <string name="select_remote_first">Seleziona prima un telecomando</string>
+    <string name="remote_saved_toast">Telecomando salvato</string>
+
+    <!-- Button text. Translators: keep it short! (max 5 chars) -->
+    <string name="button_text_power">acc</string>
+    <string name="button_text_power_on">on</string>
+    <string name="button_text_power_off">off</string>
+    <string name="button_text_vol_up">Vol+</string>
+    <string name="button_text_vol_down">Vol-</string>
+    <string name="button_text_ch_up">Can+</string>
+    <string name="button_text_ch_down">Can-</string>
+    <string name="button_text_nav_up">U</string>
+    <string name="button_text_nav_down">D</string>
+    <string name="button_text_nav_left">L</string>
+    <string name="button_text_nav_right">R</string>
+    <string name="button_text_nav_ok">OK</string>
+    <string name="button_text_back">ind</string>
+    <string name="button_text_mute">muta</string>
+    <string name="button_text_menu">menù</string>
+    <string name="button_text_digit_0">0</string>
+    <string name="button_text_digit_1">1</string>
+    <string name="button_text_digit_2">2</string>
+    <string name="button_text_digit_3">3</string>
+    <string name="button_text_digit_4">4</string>
+    <string name="button_text_digit_5">5</string>
+    <string name="button_text_digit_6">6</string>
+    <string name="button_text_digit_7">7</string>
+    <string name="button_text_digit_8">8</string>
+    <string name="button_text_digit_9">9</string>
+
+    <!--  -->
+    <string name="button_text_input">src</string>
+    <string name="button_text_guide">epg</string>
+    <string name="button_text_smart">smrt</string>
+    <string name="button_text_last">ultm</string>
+    <string name="button_text_clear">clr</string>
+    <string name="button_text_exit">esci</string>
+    <string name="button_text_cc">cc</string>
+    <string name="button_text_info">info</string>
+    <string name="button_text_sleep">dorm</string>
+
+    <!--  -->
+    <string name="button_text_play">play</string>
+    <string name="button_text_pause">pausa</string>
+    <string name="button_text_stop">stop</string>
+    <string name="button_text_fast_forward">fwd</string>
+    <string name="button_text_rewind">rwd</string>
+    <string name="button_text_next">pros</string>
+    <string name="button_text_prev">prec</string>
+    <string name="button_text_rec">reg</string>
+    <string name="button_text_disp">disp</string>
+    <!--  -->
+    <string name="button_text_src_cd">cd</string>
+    <string name="button_text_src_aux">aux</string>
+    <string name="button_text_src_tape">tape</string>
+    <string name="button_text_src_tuner">tuner</string>
+    <string name="button_text_red">rosso</string>
+    <string name="button_text_green">verde</string>
+    <string name="button_text_blue">blu</string>
+    <string name="button_text_yellow">giallo</string>
+    <string name="button_text_input_1">src 1</string>
+    <string name="button_text_input_2">src 2</string>
+    <string name="button_text_input_3">src 3</string>
+    <string name="button_text_input_4">src 4</string>
+    <string name="button_text_input_5">src 5</string>
+    <string name="button_text_fan_up">fan +</string>
+    <string name="button_text_fan_down">fan -</string>
+    <string name="button_text_temp_up">tmp +</string>
+    <string name="button_text_temp_down">tmp -</string>
+
+    <!-- -->
+    <string name="button_text_home">home</string>
+    <string name="button_text_list">lista</string>
+    <string name="button_text_fav">preferito</string>
+    <string name="button_text_game">gioco</string>
+    <string name="button_text_help">aiuto</string>
+    <string name="button_text_lang">lingua</string>
+    <string name="button_text_msg">msg</string>
+    <string name="button_text_setting">impost</string>
+
+
+    <!-- Digits allowed to save a menu_main name -->
+    <!-- Don't put spaces at the end or beginning -->
+    <string name="allowed_digits">ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789- _</string>
+
+    <!--  -->
+    <string name="delete_remote_title">Elimina telecomando</string>
+    <string name="delete_remote_message">Sei sicuro di voler eliminare %s?</string>
+    <string name="edit_remote_title">Modifica telecomando</string>
+    <string name="edit_remote_message"></string>
+    <string name="my_remotes">I miei telecomandi</string>
+
+    <!-- Preferences and all that awesome stuff -->
+    <string name="pref_tit_fix">Sistema pulsanti</string>
+    <string name="pref_desc_fix">Su alcuni dispositivi Android non invia i codici correttamente. Abilita o disabilita questa opzione per risolvere il problema.</string>
+    <string name="dlg_na_tit">Oops!</string>
+    <string name="dlg_na_msg">Sembra che il tuo dispositivo non abbia un trasmettitore IR\nCi dispiace, ma non potrai usare questa app su questo dispositivo</string>
+
+    <!-- Debug -->
+    <string name="dlg_debug_tit">Informazioni di debug</string>
+    <string name="dlg_debug_freq">Frequenze</string>
+
+    <!-- Ready -->
+    <string name="learn">Impara</string>
+    <string name="learn_tit_ready">Configura \"%s\"</string>
+    <string name="learn_desc_ready">Premi e tieni premuto il pulsante \"%s\" sul telecomando puntandolo verso il ricevitore IR del tuo dispositivo a circa 5cm (2 pollici)\nQuando sei pronto, clicca su Impara</string>
+
+    <!-- Learning -->
+    <string name="learn_tit_learning">Imparando…</string>
+    <string name="learn_desc_learning">Continua a tenere premuto %s…</string>
+
+    <!-- Learned -->
+    <string name="learn_tit_learned">Imparato!</string>
+    <string name="learn_desc_learned">Fantastico. Ora vai avanti e prova il pulsante.</string>
+    <!--  -->
+    <string name="learn_button_ready">Impara</string>
+    <string name="learn_button_cancel">Annulla</string>
+    <string name="learn_button_back">Indietro</string>
+    <string name="learn_button_skip">Salta</string>
+    <string name="learn_button_it_works">Funziona!</string>
+    <string name="learn_button_try_again">Riprova</string>
+    <string name="learn_button_finish">Termina</string>
+    <!--  -->
+    <string name="learn_learning">Imparando…</string>
+    <string name="learn_learned">Imparato!</string>
+    <string name="learn_help_tit">Problemi?</string>
+    <string name="learn_help_msg">Punta il telecomando direttamente verso il ricevitore IR del tuo dispositivo.\nPuoi anche provare a tenerlo un po\' più vicino o più lontano.</string>
+    <string name="learn_footer">Pulsante %1$d di %2$d</string>
+    <string name="learn_footer_did_it_work">Ha funzionato?</string>
+    <string name="learn_select_tit">Seleziona tipo di dispositivo</string>
+    <string name="learn_select_msg">Seleziona il tipo di dispositivo da cui stai imparando</string>
+    <!-- %s is the device type (tv, cable, blu ray, air conditioning... -->
+    <string name="learn_activity_title">Impara nuovo telecomando %s</string>
+    <!--  -->
+    <string name="ori_system">Impostazione di sistema</string>
+    <string name="ori_auto">Rotazione automatica</string>
+    <string name="ori_port">Verticale</string>
+    <string name="ori_land">Orizzontale</string>
+
+    <!-- BEGIN v1302 -->
+    <string name="pref_tit_orientation">Orientamento</string>
+    <string name="pref_tit_bg">Sfondo</string>
+    <string name="pref_desc_bg">Mostra uno sfondo personalizzato per i telecomandi</string>
+    <string name="pref_tit_fullscreen">Schermo intero</string>
+    <string name="pref_desc_fullscreen">I telecomandi verranno mostrati in modalità a schermo intero - Non verrà visualizzata la barra di stato</string>
+    <!-- bg -->
+    <string name="bg_gallery">Galleria</string>
+    <string name="bg_remove">Rimuovi sfondo</string>
+    <string name="bg_changed_ok">Sfondo cambiato</string>
+    <!-- BEGIN v1303 -->
+    <string name="pref_tit_theme">Stile pulsanti</string>
+    <!--  -->
+    <string name="theme_tr">Trasparente</string>
+    <string name="theme_sl">Solido</string>
+
+    <!--  -->
+    <string name="edit_confirmexitdlg_tit">Salvare le modifiche?</string>
+    <string name="edit_confirmexitdlg_save">Salva</string>
+    <string name="edit_confirmexitdlg_discard">Annulla</string>
+    <string name="edit_activity_subtitle">Modalità di modifica</string>
+    <!--  -->
+    <string name="menu_edit_organize">Organizza</string>
+    <string name="menu_edit_snap">Allinea alla griglia</string>
+    <string name="menu_edit_save">Salva</string>
+    <string name="menu_edit_help">Aiuto</string>
+    <string name="menu_edit_add_button">Aggiungi pulsante</string>
+    <string name="edit_helpdlg_tit">Aiuto</string>
+    <string name="edit_helpdlg_msg">Premi a lungo su un pulsante per trascinarlo e rilasciarlo.\n\nTocca i pulsanti per selezionarli, quindi fai clic sul pulsante di modifica in alto.\n\nQuando hai finito, clicca sul pulsante salva</string>
+    <string name="save_button_dlgtit">Salva pulsante</string>
+    <string name="save_button_dlgmsg">Prova il tuo pulsante e clicca OK se funziona</string>
+    <string name="edit_button_code_updated">Codice cambiato</string>
+    <!--  -->
+
+
+    <!-- %s is the name of the button -->
+    <string name="edit_button_title">Modifica Pulsante</string>
+    <string name="edit_option_text">Testo</string>
+    <string name="edit_option_text_size">Dimensione testo</string>
+    <string name="edit_option_size">Dimensione pulsante</string>
+    <string name="edit_option_remove">Rimuovi</string>
+    <string name="edit_option_icon">Icona</string>
+    <string name="edit_option_icon_color">Colore icona</string>
+    <string name="edit_option_color">Colore pulsante</string>
+    <string name="edit_option_corners">Angoli</string>
+    <string name="edit_option_code">Codice IR</string>
+    <string name="sizepicker_width">Larghezza</string>
+    <string name="sizepicker_height">Altezza</string>
+
+    <!-- BEGIN 1420 -->
+    <string name="color_dlgtit">Cambia colore pulsante</string>
+    <string name="icon_color_dlgtit">Cambia colore icona</string>
+    <string name="icon_dlgtit">Cambia icona</string>
+    <string name="icon_remove">Rimuovi icona</string>
+    <!--  -->
+    <string name="color_solid">Solido</string>
+    <string name="color_transparent">Trasparente</string>
+    <string name="color_red">Rosso</string>
+    <string name="color_pink">Rosa</string>
+    <string name="color_purple">Viola</string>
+    <string name="color_deep_purple">Viola scuro</string>
+    <string name="color_indigo">Indaco</string>
+    <string name="color_blue">Blu</string>
+    <string name="color_light_blue">Azzurro</string>
+    <string name="color_cyan">Ciano</string>
+    <string name="color_teal">Verde acqua</string>
+    <string name="color_green">Verde</string>
+    <string name="color_light_green">Verde chiaro</string>
+    <string name="color_lime">Verde lime</string>
+    <string name="color_yellow">Giallo</string>
+    <string name="color_amber">Ambra</string>
+    <string name="color_orange">Arancione</string>
+    <string name="color_deep_orange">Arancione scuro</string>
+    <string name="color_brown">Marrone</string>
+    <string name="color_grey">Grigio</string>
+    <string name="color_blue_grey">Grigio blu</string>
+    <string name="color_white">Bianco</string>
+    <string name="color_black">Nero</string>
+
+    <!--  -->
+    <string name="menu_edit_multi">Modifica multipla</string>
+    <string name="menu_edit_cab_edit">Modifica</string>
+    <string name="menu_edit_cab_sel_all">Tutti</string>
+    <string name="menu_edit_cab_sel_none">Nessuno</string>
+    <!--  -->
+    <plurals name="selected">
+        <item quantity="other">%d selezionati</item>
+    </plurals>
+
+    <string name="edit_corners_c">Raggio</string>
+    <string name="edit_corners_tl">In alto a sinistra</string>
+    <string name="edit_corners_tr">In alto a destra</string>
+    <string name="edit_corners_bl">In basso a sinistra</string>
+    <string name="edit_corners_br">In basso a destra</string>
+    <string name="edit_corners_dlgtit">Raggio degli angoli</string>
+    <string name="pref_tit_vibrate">Vibra alla pressione</string>
+    <string name="pref_desc_vibrate">Vibra quando si preme un pulsante</string>
+    <string name="pref_tit_delay">Ritardo ripetizione segnale</string>
+    <string name="pref_desc_delay">Tempo in millisecondi di attesa tra i segnali quando si tiene premuto</string>
+    <string name="ms">%d ms</string>
+<string name="delay_reset_default">Predefinito</string>
+<string name="learn_tit_saved">%s salvato</string>
+<string name="learn_desc_saved">Hai già imparato questo pulsante. Per controllare se funziona, tocca il pulsante. Se non funziona, premi su "Riprova" in fondo per impararlo di nuovo.</string>
+<string name="learn_button_forget">Dimentica</string>
+<string name="learn_button_next">Prossimo</string>
+<string name="no_remotes">Non hai telecomandi\n\nTocca il pulsante + per aggiungere il tuo primo telecomando</string>
+<string name="err_all_fields">Per favore, riempi tutti i campi</string>
+<string name="loading">Caricamento</string>
+<string name="pref_dlg_tit_fix">Attenzione</string>
+<string name="pref_dlg_msg_fix">Se hai QUALCHE pulsante del telecomando funzionante, non toccare questa impostazione.\nCambiala solo se NESSUN pulsante funziona per te.\n\nDopo aver cambiato questa impostazione, riavvia il tuo dispositivo.\n\nSei sicuro di voler cambiare questa impostazione?</string>
+<string name="dev_type_tv">TV</string>
+<string name="dev_type_cable">Set-top</string>
+<string name="dev_type_cd">CD</string>
+<string name="dev_type_dvd">DVD</string>
+<string name="dev_type_blu_ray">Blu-ray</string>
+<string name="dev_type_audio">Sistema audio</string>
+<string name="dev_type_camera">Camera</string>
+<string name="dev_type_air_con">Condizionatore</string>
+<string name="dev_type_other">Altro</string>
+<string name="organize_icons">Icone</string>
+<string name="organize_colors">Colori</string>
+<string name="organize_corners">Bordi</string>
+<string name="organize_positions">Posizioni</string>
+<string name="organize_dlgtit">Organizza pulsanti</string>
+<string name="provider_common">Telecomandi comuni</string>
+<string name="provider_local">I miei telecomandi</string>
+<string name="provider_learn_remote">Impara telecomando</string>
+<string name="provider_learn_button">Impara pulsante</string>
+<string name="provider_manual">Codice IR manuale</string>
+<string name="title_provider_add_button">Aggiungi pulsante</string>
+<string name="title_provider_add_remote">Aggiungi telecomando</string>
+<string name="corners_square">Quadrato</string>
+<string name="corners_rounded_square">Quadrato tondeggiante</string>
+<string name="corners_circle">Cerchio</string>
+<plurals name="list_remote_button_size">
+    <item quantity="zero">%d pulsanti</item>
+    <item quantity="one">%d pulsante</item>
+    <item quantity="other">%d pulsanti</item>
+</plurals>
+<string name="save_remote_preview">Anteprima</string>
+<string name="preview_remote_dlgtit_remote">Anteprima del telecomando</string>
+<string name="preview_remote_dlgtit_button">Seleziona un pulsante</string>
+<string name="version_preference_format">Versione %1$s (%2$d)</string>
+<string name="provider_manual_freq_pattern">Frequenza, pattern</string>
+<string name="provider_manual_pronto">Formato Pronto</string>
+<string name="provider_manual_freq_info">"Frequenza, Pattern
+
+Frequenza: La frequenza del vettore IR in Hertz
+
+Pattern: L'alternanza del pattern acceso/spento in impulsi (separati da virgola)
+
+Esempio: 38000,1,1,162,162,31,65,31,65,31,65,[…],31,1792"</string>
+<string name="provider_manual_pronto_info">"Formato Pronto
+
+Esempio: 0000 006d 0022 0002 0156 00ab […] 0015 0056 0ed8"</string>
+<string name="provider_manual_invalid">Pattern IR non valido</string>
+<string name="provider_manual_save">Salva Codice</string>
+<string name="provider_manual_freq_sus">La frequenza del vettore potrebbe non funzionare</string>
+<string name="provider_manual_new_button">Nuovo Pulsante</string>
+<string name="empty_remote_tit">Telecomando vuoto</string>
+<string name="empty_remote_msg">"Verrà creato un telecomando vuoto. Clicca su Menu - Modifica per andare alla schermata di modifica.
+Da lì puoi aggiungere singoli pulsanti cliccando su Menu - Aggiungi Pulsante"</string>
+</resources>
+

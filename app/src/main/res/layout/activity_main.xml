@@ -1,0 +1,63 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <include layout="@layout/toolbar" />
+
+    <androidx.drawerlayout.widget.DrawerLayout
+        android:id="@+id/drawer_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:id="@+id/background"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_centerInParent="true"
+                android:contentDescription="@null"
+                android:scaleType="centerCrop" />
+
+            <!-- The rest of content view -->
+
+            <FrameLayout
+                android:id="@+id/container"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+        </RelativeLayout>
+
+        <fragment
+            android:id="@+id/navigation_drawer"
+            android:name="org.twinone.irremote.ui.MainNavFragment"
+            android:layout_width="@dimen/navigation_drawer_width"
+            android:layout_height="match_parent"
+            android:layout_gravity="start">
+
+            <com.google.android.material.floatingactionbutton.FloatingActionButton
+                android:id="@+id/add_remote"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentBottom="true"
+                android:layout_gravity="bottom|right"
+                android:layout_margin="16dp"
+                android:contentDescription="@string/add_remote"
+                android:src="@drawable/ic_add_white_24dp"
+                app:backgroundTint="@color/accent"
+                app:borderWidth="0dp"
+                app:elevation="@dimen/fab_shadow_size"
+                app:fabSize="normal"
+                app:fab_colorNormal="@color/accent"
+                app:fab_colorPressed="@color/accent_dark"
+                app:fab_colorRipple="@color/ripple_material_dark" />
+
+        </fragment>
+
+    </androidx.drawerlayout.widget.DrawerLayout>
+
+</LinearLayout>

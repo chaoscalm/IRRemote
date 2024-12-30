@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="corners">
+        <item>@string/corners_circle</item>
+        <item>@string/corners_rounded_square</item>
+        <item>@string/corners_square</item>
+    </string-array>
+    <!--<string-array name="learn_device_types">-->
+        <!--<item>@string/dev_type_tv</item>-->
+        <!--<item>@string/dev_type_cable</item>-->
+        <!--<item>@string/dev_type_blu_ray</item>-->
+        <!--<item>@string/dev_type_audio</item>-->
+        <!--<item>@string/dev_type_air_con</item>-->
+    <!--</string-array>-->
+    <string-array name="orientation_names">
+        <item>@string/ori_system</item>
+        <item>@string/ori_auto</item>
+        <item>@string/ori_port</item>
+        <item>@string/ori_land</item>
+    </string-array>
+    <string-array name="orientation_values">
+        <item>@string/pref_val_ori_system</item>
+        <item>@string/pref_val_ori_auto</item>
+        <item>@string/pref_val_ori_port</item>
+        <item>@string/pref_val_ori_land</item>
+    </string-array>
+    <string-array name="bg_names">
+        <item>@string/bg_gallery</item>
+        <item>@string/bg_remove</item>
+    </string-array>
+    <string-array name="bg_values">
+        <item>@string/pref_val_bg_gallery</item>
+        <item>@string/pref_val_bg_none</item>
+    </string-array>
+    <string-array name="edit_button_options">
+        <item>@string/edit_option_text</item>
+        <item>@string/edit_option_text_size</item>
+        <item>@string/edit_option_size</item>
+        <item>@string/edit_option_icon</item>
+        <item>@string/edit_option_icon_color</item>
+        <item>@string/edit_option_color</item>
+        <item>@string/edit_option_corners</item>
+        <item>@string/edit_option_code</item>
+        <item>@string/edit_option_remove</item>
+    </string-array>
+    <string-array name="colors">
+        <item>@string/color_solid</item>
+        <item>@string/color_transparent</item>
+        <item>@string/color_red</item>
+        <item>@string/color_pink</item>
+        <item>@string/color_purple</item>
+        <item>@string/color_deep_purple</item>
+        <item>@string/color_indigo</item>
+        <item>@string/color_blue</item>
+        <item>@string/color_light_blue</item>
+        <item>@string/color_cyan</item>
+        <item>@string/color_teal</item>
+        <item>@string/color_green</item>
+        <item>@string/color_light_green</item>
+        <item>@string/color_lime</item>
+        <item>@string/color_yellow</item>
+        <item>@string/color_amber</item>
+        <item>@string/color_orange</item>
+        <item>@string/color_deep_orange</item>
+        <item>@string/color_brown</item>
+        <item>@string/color_grey</item>
+        <item>@string/color_blue_grey</item>
+        <item>@string/color_white</item>
+        <item>@string/color_black</item>
+    </string-array>
+    <string-array name="device_types">
+        <item>@string/dev_type_tv</item>
+        <item>@string/dev_type_cable</item>
+        <item>@string/dev_type_cd</item>
+        <item>@string/dev_type_dvd</item>
+        <item>@string/dev_type_blu_ray</item>
+        <item>@string/dev_type_audio</item>
+        <item>@string/dev_type_camera</item>
+        <item>@string/dev_type_air_con</item>
+        <item>@string/dev_type_other</item>
+    </string-array>
+</resources>

@@ -1,0 +1,365 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">IR Remote</string>
+
+    <string name="db_menu_search_tit">Search</string>
+    <string name="db_menu_refresh">Refresh</string>
+    <string name="menu_save">Save Remote</string>
+    <string name="db_search_hint_manufacturers">Search manufacturers</string>
+    <string name="db_search_hint_custom">Search %s</string>
+    <string name="db_search_hint_buttons">Search buttons</string>
+    <string name="db_select_manufacturer">Select manufacturer</string>
+    <string name="db_select_device_type">Select device type</string>
+    <!--  -->
+    <string name="common_menu_todb">More</string>
+    <!--  -->
+    <string name="menu_action_delete_remote">Delete Remote</string>
+    <string name="menu_action_rename">Rename Remote</string>
+    <string name="menu_action_edit">Edit Remote</string>
+    <string name="menu_action_export">Export Remote</string>
+    <string name="menu_action_import">Import Remote</string>
+    <string name="menu_action_share">Share Remote</string>
+    <string name="menu_action_learn">Learn</string>
+    <string name="menu_action_settings">Settings</string>
+
+    <string name="share_remote_message">Share %s</string>
+    <string name="share_remote_failed">Remote share failed</string>
+    <string name="export_remote_failed">Remote export failed</string>
+    <string name="import_invalid">Invalid remote file</string>
+    <string name="import_notexist">Remote file not found</string>
+
+    <!-- Save -->
+    <string name="save_remote_title">Save remote</string>
+    <string name="save_remote_text">Choose a name for your remote.\nYour new remote will appear in the My Remotes section</string>
+    <string name="save_remote_hint">Remote name</string>
+    <string name="save_remote_save">Save</string>
+    <string name="err_name_empty">Remote name cannot be empty</string>
+    <!-- Rename -->
+    <string name="rename_remote_title">Rename remote</string>
+    <string name="rename_remote_message">Enter a new name for %s</string>
+    <string name="rename_remote_hint">New name</string>
+    <string name="rename_remote_save">Rename</string>
+
+    <!--  -->
+    <string name="save_button_title">Save button</string>
+    <string name="select_remote">Select a remote</string>
+    <string name="save_button_text_title">Button name</string>
+    <string name="save_button_hint">Button name</string>
+    <string name="save_button_save">Save</string>
+    <string name="add_remote">Add remote</string>
+    <string name="select_remote_first">Select a remote first</string>
+    <string name="remote_saved_toast">Remote saved</string>
+
+    <!-- Button text. Translators: keep it short! (max 5 chars) -->
+    <string name="button_text_power">pwr</string>
+    <string name="button_text_power_on">on</string>
+    <string name="button_text_power_off">off</string>
+    <string name="button_text_vol_up">Vol+</string>
+    <string name="button_text_vol_down">Vol-</string>
+    <string name="button_text_ch_up">Ch+</string>
+    <string name="button_text_ch_down">Ch-</string>
+    <string name="button_text_nav_up">U</string>
+    <string name="button_text_nav_down">D</string>
+    <string name="button_text_nav_left">L</string>
+    <string name="button_text_nav_right">R</string>
+    <string name="button_text_nav_ok">OK</string>
+    <string name="button_text_back">back</string>
+    <string name="button_text_mute">mute</string>
+    <string name="button_text_menu">menu</string>
+    <string name="button_text_digit_0">0</string>
+    <string name="button_text_digit_1">1</string>
+    <string name="button_text_digit_2">2</string>
+    <string name="button_text_digit_3">3</string>
+    <string name="button_text_digit_4">4</string>
+    <string name="button_text_digit_5">5</string>
+    <string name="button_text_digit_6">6</string>
+    <string name="button_text_digit_7">7</string>
+    <string name="button_text_digit_8">8</string>
+    <string name="button_text_digit_9">9</string>
+
+    <!--  -->
+    <string name="button_text_input">src</string>
+    <string name="button_text_guide">epg</string>
+    <string name="button_text_smart">smrt</string>
+    <string name="button_text_last">last</string>
+    <string name="button_text_clear">clr</string>
+    <string name="button_text_exit">exit</string>
+    <string name="button_text_cc">cc</string>
+    <string name="button_text_info">info</string>
+    <string name="button_text_sleep">slp</string>
+
+    <!--  -->
+    <string name="button_text_play">play</string>
+    <string name="button_text_pause">pause</string>
+    <string name="button_text_stop">stop</string>
+    <string name="button_text_fast_forward">fwd</string>
+    <string name="button_text_rewind">rwd</string>
+    <string name="button_text_next">next</string>
+    <string name="button_text_prev">prev</string>
+    <string name="button_text_rec">rec</string>
+    <string name="button_text_disp">disp</string>
+    <!--  -->
+    <string name="button_text_src_cd">cd</string>
+    <string name="button_text_src_aux">aux</string>
+    <string name="button_text_src_tape">tape</string>
+    <string name="button_text_src_tuner">tuner</string>
+    <string name="button_text_red">red</string>
+    <string name="button_text_green">green</string>
+    <string name="button_text_blue">blue</string>
+    <string name="button_text_yellow">yellow</string>
+    <string name="button_text_input_1">src 1</string>
+    <string name="button_text_input_2">src 2</string>
+    <string name="button_text_input_3">src 3</string>
+    <string name="button_text_input_4">src 4</string>
+    <string name="button_text_input_5">src 5</string>
+    <string name="button_text_fan_up">fan +</string>
+    <string name="button_text_fan_down">fan -</string>
+    <string name="button_text_temp_up">tmp +</string>
+    <string name="button_text_temp_down">tmp -</string>
+
+    <!-- -->
+    <string name="button_text_home">home</string>
+    <string name="button_text_list">list</string>
+    <string name="button_text_fav">fav</string>
+    <string name="button_text_game">game</string>
+    <string name="button_text_help">help</string>
+    <string name="button_text_lang">lang</string>
+    <string name="button_text_msg">msg</string>
+    <string name="button_text_setting">sett</string>
+
+
+    <!-- Digits allowed to save a menu_main name -->
+    <!-- Don't put spaces at the end or beginning -->
+    <string name="allowed_digits">ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789- _</string>
+
+    <!--  -->
+    <string name="delete_remote_title">Delete remote</string>
+    <string name="delete_remote_message">Are you sure you want to delete %s?</string>
+    <string name="edit_remote_title">Edit remote</string>
+    <string name="edit_remote_message"></string>
+    <string name="my_remotes">My remotes</string>
+
+    <!-- Preferences and all that awesome stuff -->
+    <string name="pref_tit_fix">Fix buttons</string>
+    <string name="pref_desc_fix">On some devices Android doesn\'t send the codes correctly. Enable or disable this to fix it.</string>
+    <string name="dlg_na_tit">Oops!</string>
+    <string name="dlg_na_msg">It looks like your device does not have an IR Transmitter\nWe\'re sorry, but you will not be able to use this app on this device</string>
+
+    <!-- Debug -->
+    <string name="dlg_debug_tit">Debug Info</string>
+    <string name="dlg_debug_freq">Frequencies</string>
+
+    <!-- Ready -->
+    <string name="learn">Learn</string>
+    <string name="learn_tit_ready">Configure \"%s\"</string>
+    <string name="learn_desc_ready">Press and hold the \"%s\" button on your remote aiming at your device\'s IR Receiver at about 2inch(5cm)\nWhen you\'re ready, click Learn</string>
+
+    <!-- Learning -->
+    <string name="learn_tit_learning">Learning…</string>
+    <string name="learn_desc_learning">Keep holding %s…</string>
+
+    <!-- Learned -->
+    <string name="learn_tit_learned">Learned!</string>
+    <string name="learn_desc_learned">Awesome. Now go ahead and try the button.</string>
+    <!--  -->
+    <string name="learn_button_ready">Learn</string>
+    <string name="learn_button_cancel">Cancel</string>
+    <string name="learn_button_back">Back</string>
+    <string name="learn_button_skip">Skip</string>
+    <string name="learn_button_it_works">It works!</string>
+    <string name="learn_button_try_again">Try again</string>
+    <string name="learn_button_finish">Finish</string>
+    <!--  -->
+    <string name="learn_learning">Learning…</string>
+    <string name="learn_learned">Learned!</string>
+    <!--  -->
+    <string name="learn_help_tit">Having trouble?</string>
+    <string name="learn_help_msg">Aim your remote directly at your device\'s IR Receiver.\nYou can also try holding it a little farther or nearer.</string>
+    <string name="learn_footer">Button %1$d of %2$d</string>
+    <string name="learn_footer_did_it_work">Did it work?</string>
+    <string name="learn_select_tit">Select device type</string>
+    <string name="learn_select_msg">Select the type of device that you\'re learning from</string>
+    <!-- %s is the device type (tv, cable, blu ray, air conditioning... -->
+    <string name="learn_activity_title">Learn new %s remote</string>
+    <!--  -->
+    <string name="ori_system">System setting</string>
+    <string name="ori_auto">Auto-rotate</string>
+    <string name="ori_port">Portrait</string>
+    <string name="ori_land">Landscape</string>
+
+    <!-- BEGIN v1302 -->
+    <string name="pref_tit_orientation">Orientation</string>
+    <string name="pref_tit_bg">Background</string>
+    <string name="pref_desc_bg">Display a custom background for remotes</string>
+    <string name="pref_tit_fullscreen">Fullscreen</string>
+    <string name="pref_desc_fullscreen">Remotes will show in fullscreen mode - No statusbar will be displayed</string>
+    <!-- bg -->
+    <string name="bg_gallery">Gallery</string>
+    <string name="bg_remove">Remove Background</string>
+    <string name="bg_changed_ok">Background changed</string>
+    <!-- BEGIN v1303 -->
+    <string name="pref_tit_theme">Button style</string>
+    <!--  -->
+    <string name="theme_tr">Transparent</string>
+    <string name="theme_sl">Solid</string>
+
+    <!--  -->
+    <string name="edit_confirmexitdlg_tit">Save changes?</string>
+    <string name="edit_confirmexitdlg_save">Save</string>
+    <string name="edit_confirmexitdlg_discard">Discard</string>
+    <string name="edit_activity_subtitle">Edit mode</string>
+    <!--  -->
+    <string name="menu_edit_organize">Organize</string>
+    <string name="menu_edit_snap">Snap to grid</string>
+    <string name="menu_edit_save">Save</string>
+    <string name="menu_edit_help">Help</string>
+    <string name="menu_edit_add_button">Add button</string>
+    <string name="edit_helpdlg_tit">Help</string>
+    <string name="edit_helpdlg_msg">Long press on a button to drag and drop.\n\nTap on buttons to select them, then click the edit button at the top.\n\nWhen you\'re done, click the save button at the top.\n\nIf you don\'t like your changes, just click back to discard them.</string>
+    <string name="save_button_dlgtit">Save button</string>
+    <string name="save_button_dlgmsg">Test your button and touch OK if it works</string>
+    <string name="edit_button_code_updated">Code changed</string>
+    <!--  -->
+
+
+    <!-- %s is the name of the button -->
+    <string name="edit_button_title">Edit Button</string>
+    <string name="edit_option_text">Text</string>
+    <string name="edit_option_text_size">Text size</string>
+    <string name="edit_option_size">Button Size</string>
+    <string name="edit_option_remove">Remove</string>
+    <string name="edit_option_icon">Icon</string>
+    <string name="edit_option_icon_color">Icon Color</string>
+    <string name="edit_option_color">Button Color</string>
+    <string name="edit_option_corners">Corners</string>
+    <string name="edit_option_code">IR Code</string>
+    <string name="sizepicker_width">Width</string>
+    <string name="sizepicker_height">Height</string>
+
+    <!-- BEGIN 1420 -->
+    <string name="color_dlgtit">Change Button color</string>
+    <string name="icon_color_dlgtit">Change Icon color</string>
+    <string name="icon_dlgtit">Change icon</string>
+    <string name="icon_remove">Remove icon</string>
+    <!--  -->
+    <string name="color_solid">Solid</string>
+    <string name="color_transparent">Transparent</string>
+    <string name="color_red">Red</string>
+    <string name="color_pink">Pink</string>
+    <string name="color_purple">Purple</string>
+    <string name="color_deep_purple">Deep Purple</string>
+    <string name="color_indigo">Indigo</string>
+    <string name="color_blue">Blue</string>
+    <string name="color_light_blue">Light Blue</string>
+    <string name="color_cyan">Cyan</string>
+    <string name="color_teal">Teal</string>
+    <string name="color_green">Green</string>
+    <string name="color_light_green">Light Green</string>
+    <string name="color_lime">Lime</string>
+    <string name="color_yellow">Yellow</string>
+    <string name="color_amber">Amber</string>
+    <string name="color_orange">Orange</string>
+    <string name="color_deep_orange">Deep Orange</string>
+    <string name="color_brown">Brown</string>
+    <string name="color_grey">Grey</string>
+    <string name="color_blue_grey">Blue Grey</string>
+    <string name="color_white">White</string>
+    <string name="color_black">Black</string>
+
+    <!--  -->
+    <string name="menu_edit_multi">Multi Edit</string>
+    <string name="menu_edit_cab_edit">Edit</string>
+    <string name="menu_edit_cab_sel_all">ALL</string>
+    <string name="menu_edit_cab_sel_none">NONE</string>
+    <!--  -->
+    <plurals name="selected">
+        <item quantity="other">%d selected</item>
+    </plurals>
+
+    <string name="edit_corners_c">Radius</string>
+    <string name="edit_corners_tl">Top Left</string>
+    <string name="edit_corners_tr">Top Right</string>
+    <string name="edit_corners_bl">Bottom Left</string>
+    <string name="edit_corners_br">Bottom Right</string>
+    <string name="edit_corners_dlgtit">Corner Radius</string>
+    <string name="pref_tit_vibrate">Vibrate on press</string>
+    <string name="pref_desc_vibrate">Vibrate when a button is pressed</string>
+    <string name="pref_tit_delay">Signal repeat delay</string>
+    <string name="pref_desc_delay">Time in milliseconds to wait between signals when long pressing</string>
+    <string name="ms">%d ms</string>
+    <string name="delay_reset_default">Default</string>
+    <string name="learn_tit_saved">%s Saved</string>
+    <string name="learn_desc_saved">You already learned this button. To check if it works, tap the button. If it doesn\'t \"Try again\" at the bottom to learn it again.</string>
+    <string name="learn_button_forget">Forget</string>
+    <string name="learn_button_next">Next</string>
+    <string name="no_remotes">You have no remotes\n\nTouch the + button to add your first remote</string>
+    <string name="err_all_fields">Please fill in all fields</string>
+    <string name="loading">Loading</string>
+    <!--  -->
+    <string name="pref_dlg_tit_fix">Warning</string>
+    <string name="pref_dlg_msg_fix">If you have ANY remote button working, don\'t touch this setting.\nOnly change it if NOTHING works for you.\n\nAfter changing this setting, reboot your device.\n\nAre you sure you want to change this setting?</string>
+    <!-- -->
+    <string name="dev_type_tv">TV</string>
+    <string name="dev_type_cable">Set-top</string>
+    <string name="dev_type_cd">CD</string>
+    <string name="dev_type_dvd">DVD</string>
+    <string name="dev_type_blu_ray">Blu-ray</string>
+    <string name="dev_type_audio">Audio System</string>
+    <string name="dev_type_camera">Camera</string>
+    <string name="dev_type_air_con">Air conditioning</string>
+    <string name="dev_type_other">Other</string>
+    <!--  -->
+    <string name="organize_icons">Icons</string>
+    <string name="organize_colors">Colors</string>
+    <string name="organize_corners">Corners</string>
+    <string name="organize_positions">Positions</string>
+    <string name="organize_dlgtit">Organize Buttons</string>
+    <!--  -->
+    <string name="provider_common">Common Remotes</string>
+    <string name="provider_local">My Remotes</string>
+    <string name="provider_learn_remote">Learn Remote</string>
+    <string name="provider_learn_button">Learn Button</string>
+    <string name="provider_manual">Manual IR Code</string>
+    <string name="title_provider_add_button">Add button</string>
+    <string name="title_provider_add_remote">Add remote</string>
+
+    <string name="corners_square">Square</string>
+    <string name="corners_rounded_square">Rounded square</string>
+    <string name="corners_circle">Circle</string>
+
+    <plurals name="list_remote_button_size">
+        <item quantity="zero">%d buttons</item>
+        <item quantity="one">%d button</item>
+        <item quantity="other">%d buttons</item>
+    </plurals>
+
+
+    <string name="save_remote_preview">Preview</string>
+
+    <string name="preview_remote_dlgtit_remote">Preview remote</string>
+    <string name="preview_remote_dlgtit_button">Select a button</string>
+
+    <string name="version_preference_format">Version %1$s (%2$d)</string>
+
+    <string name="provider_manual_freq_pattern">Frequency, pattern</string>
+    <string name="provider_manual_pronto">Pronto Format</string>
+    <string name="provider_manual_freq_info">"Frequency, Pattern
+
+Frequency: The IR carrier frequency in Hertz
+
+Pattern: The alternating on/off pattern in pulses (comma separated)
+
+Example: 38000,1,1,162,162,31,65,31,65,31,65,[…],31,1792"</string>
+    <string name="provider_manual_pronto_info">"Pronto Format
+
+Example: 0000 006d 0022 0002 0156 00ab […] 0015 0056 0ed8"</string>
+    <string name="provider_manual_invalid">Invalid IR pattern</string>
+    <string name="provider_manual_save">Save Code</string>
+    <string name="provider_manual_freq_sus">The carrier frequency may not work</string>
+    <string name="provider_manual_new_button">New Button</string>
+
+    <string name="empty_remote_tit">Empty Remote</string>
+    <string name="empty_remote_msg">"An empty remote will be created. Click Menu - Edit to go to the edit screen.
+From there you can add individual buttons clicking Menu - Add Button"</string>
+</resources>

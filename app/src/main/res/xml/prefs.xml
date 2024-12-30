@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <CheckBoxPreference
+        android:defaultValue="@bool/pref_def_fullscreen"
+        android:key="@string/pref_key_fullscreen"
+        android:summary="@string/pref_desc_fullscreen"
+        android:title="@string/pref_tit_fullscreen" />
+
+    <ListPreference
+        android:defaultValue="@string/pref_def_orientation"
+        android:entries="@array/orientation_names"
+        android:entryValues="@array/orientation_values"
+        android:key="@string/pref_key_orientation"
+        android:title="@string/pref_tit_orientation" />
+    <ListPreference
+        android:entries="@array/bg_names"
+        android:entryValues="@array/bg_values"
+        android:key="@string/pref_key_bg"
+        android:title="@string/pref_tit_bg" />
+    <!--
+    <ListPreference
+        android:defaultValue="@string/pref_def_theme"
+        android:entries="@array/theme_names"
+        android:entryValues="@array/theme_values"
+        android:key="@string/pref_key_theme"
+        android:title="@string/pref_tit_theme" />
+    -->
+    <CheckBoxPreference
+        android:defaultValue="@bool/pref_def_vibrate"
+        android:key="@string/pref_key_vibrate"
+        android:summary="@string/pref_desc_vibrate"
+        android:title="@string/pref_tit_vibrate" />
+    <!--
+    <CheckBoxPreference
+        android:defaultValue="@bool/pref_def_light"
+        android:key="@string/pref_key_light"
+        android:summary="@string/pref_desc_light"
+        android:title="@string/pref_tit_light" />
+        -->
+
+    <org.twinone.irremote.ui.DelaySliderDialog
+        android:defaultValue="@integer/pref_def_delay"
+        android:key="@string/pref_key_delay"
+        android:summary="@string/pref_desc_delay"
+        android:title="@string/pref_tit_delay" />
+
+    <CheckBoxPreference
+        android:defaultValue="@bool/pref_def_fix"
+        android:key="@string/pref_key_fix"
+        android:summary="@string/pref_desc_fix"
+        android:title="@string/pref_tit_fix" />
+
+    <org.twinone.irremote.VersionPreference />
+
+</PreferenceScreen>

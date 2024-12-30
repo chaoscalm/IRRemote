@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- gradient_red -->
+    <array name="gradient_solid">
+        <item>#494f52</item>
+        <item>#313639</item>
+    </array>
+    <array name="gradient_solid_pressed">
+        <item>#333</item>
+        <item>#333</item>
+    </array>
+    <array name="gradient_transparent">
+        <item>#8333</item>
+        <item>#8333</item>
+    </array>
+    <array name="gradient_transparent_pressed">
+        <item>#333</item>
+        <item>#333</item>
+    </array>
+
+</resources>

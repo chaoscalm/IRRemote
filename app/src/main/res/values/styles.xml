@@ -1,0 +1,44 @@
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <style name="AppBaseTheme" parent="Theme.AppCompat.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:textColorPrimary">#ffffff</item>
+        <item name="android:textColorSecondary">#ffffff</item>
+        <item name="windowActionModeOverlay">true</item>
+        <item name="colorAccent">@color/accent</item>
+        <item name="colorPrimary">@color/primary</item>
+        <item name="colorPrimaryDark">@color/primary_dark</item>
+
+        <!--<item name="actionModeBackground">@color/material_grey_500</item>-->
+        <!--<item name="actionBarPopupTheme">@style/ActionMode</item>-->
+    </style>
+
+
+    <!-- Application theme. -->
+    <style name="AppTheme" parent="AppBaseTheme">
+        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+    </style>
+
+    <style name="ToolbarTheme" parent="AppBaseTheme">
+        <item name="android:background">?attr/colorPrimary</item>
+    </style>
+
+    <style name="NavTheme" parent="AppBaseTheme">
+        <item name="android:background">@color/navigation_background</item>
+    </style>
+
+    <style name="DialogAnims" parent="AppBaseTheme">
+        <item name="android:windowEnterAnimation">@anim/dialog_in</item>
+        <item name="android:windowExitAnimation">@anim/dialog_out</item>
+    </style>
+
+    <style name="AccentTint_Button_Base" parent="@android:style/Widget.Button">
+        <item name="android:textColor">@color/accent_contrast_text</item>
+    </style>
+
+    <style name="AccentTint_Button" parent="@style/AccentTint_Button_Base">
+        <item name="android:background">@drawable/compat_accent_button</item>
+    </style>
+
+</resources>
