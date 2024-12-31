@@ -14,10 +14,10 @@ This project is licensed under GPLv3. See the [LICENSE](LICENSE) file.
 
 - @twinone for the original app
 - @Tavi DivestOS
-- Biswapriyo Nath for significant maintenance efforts
+- @Biswapriyo Nath for significant maintenance efforts
 - @godbless96 for bugfixes and remote additions
-- Diego Sanguinetti for the Spanish translations
-- Michael Moroni for the Italian translation
-- Dimitris Vagiakakos for the Greek translations
-- Roman Luitko for additional remotes
-- Stéphane Lenclud for additional remotes and JSON remote backend
+- @Diego Sanguinetti for the Spanish translations
+- @Michael Moroni for the Italian translation
+- @Dimitris Vagiakakos for the Greek translations
+- @Roman Luitko for additional remotes
+- @Stéphane Lenclud for additional remotes and JSON remote backend
