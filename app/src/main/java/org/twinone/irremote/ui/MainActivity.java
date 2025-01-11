@@ -95,10 +95,8 @@ public class MainActivity extends ToolbarActivity implements OnRemoteRenamedList
 
         if (irManager == null || !irManager.hasIrEmitter()) {
             Toast.makeText(this, "Your device does not support infrared", Toast.LENGTH_LONG).show();
-            // Optionally, you can disable related features or close the app
-            // finish();
-        } else {
-            // Your IR related code here
+            finish(); // Close the app or disable related features
+            return;
         }
 
         if (!checkTransmitterAvailable() && !Constants.USE_DEBUG_TRANSMITTER) {
