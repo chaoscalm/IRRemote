@@ -3,11 +3,16 @@
 ![a107e2da-50f7-41c5-a5ec-0875a472c5f8](https://github.com/user-attachments/assets/fab28020-99a3-4e65-bb71-77b3b2888290)
 
 
-**Remota Imperium** is a free android app that allows you to use your phone's built in IR transmitter to control your TV, cable box, blu ray, etc
+**Remota Imperium** is a fork of [IR Remote](https://f-droid.org/en/packages/us.spotco.ir_remote/) that allows you to use your phone's built in IR transmitter to control your TV, cable box, blu ray, etc...
+[IR Remote Archived Repository](https://github.com/Divested-Mobile/IRRemote)
 
-## Contributing
+## Changelog for Remota Imperium
 
-Please read our [contribution guidelines](CONTRIBUTING.md) before making any contributions to the project. We welcome bug reports, feature requests, and pull requests from the community.
+* Rewrote the Italian translation from scratch, the other translations beyond English can be removed or updated in future
+* Fixed crash on devices without infrared, show a toast instead
+* Updated all dependencies except one that will require a full app rewrite, also that dependency is already abandoned now, so not worthy doing that
+* Avoid failed compilation cause of ram
+* We don't need to implement edge-to-edge in this case cause it's already an option in the menu of the app, just select it
 
 ## License
 
