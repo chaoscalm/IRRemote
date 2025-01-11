@@ -1,6 +1,6 @@
-# RemotaImperium
+# Remota Imperium
 
-RemotaImperium is a free android app that allows you to use your phone's built in IR transmitter to control your TV, cable box, blu ray, etc
+Remota Imperium is a free android app that allows you to use your phone's built in IR transmitter to control your TV, cable box, blu ray, etc
 
 ## Contributing
 
