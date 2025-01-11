@@ -5,6 +5,7 @@ import android.content.Context;
 import android.content.Intent;
 import android.content.SharedPreferences;
 import android.content.pm.ActivityInfo;
+import android.hardware.ConsumerIrManager;
 import android.net.Uri;
 import android.os.Bundle;
 
@@ -90,12 +91,21 @@ public class MainActivity extends ToolbarActivity implements OnRemoteRenamedList
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
 
+        ConsumerIrManager irManager = (ConsumerIrManager) getSystemService(Context.CONSUMER_IR_SERVICE);
+
+        if (irManager == null || !irManager.hasIrEmitter()) {
+            Toast.makeText(this, "Your device does not support infrared", Toast.LENGTH_LONG).show();
+            // Optionally, you can disable related features or close the app
+            // finish();
+        } else {
+            // Your IR related code here
+        }
+
         if (!checkTransmitterAvailable() && !Constants.USE_DEBUG_TRANSMITTER) {
             showNotAvailableDialog();
         }
 
         new VersionManager(this, this).callFromEntryPoint();
-
         SignalCorrector.setAffectedOnce(this);
 
         final SharedPreferences sp = SettingsActivity.getPreferences(this);
@@ -125,7 +135,6 @@ public class MainActivity extends ToolbarActivity implements OnRemoteRenamedList
                 (DrawerLayout) findViewById(R.id.drawer_layout));
         mNavFragment.setEdgeSizeDp(30);
     }
-
 
     @Override
     protected void onNewIntent(Intent intent) {
@@ -246,7 +255,6 @@ public class MainActivity extends ToolbarActivity implements OnRemoteRenamedList
         mNavFragment.update();
     }
 
-
     @Override
     public void onClick(View v) {
         final int id = v.getId();
@@ -257,7 +265,6 @@ public class MainActivity extends ToolbarActivity implements OnRemoteRenamedList
             AnimHelper.startActivity(this, i);
         }
     }
-
 
     @Override
     public boolean onPrepareOptionsMenu(Menu menu) {
@@ -270,7 +277,6 @@ public class MainActivity extends ToolbarActivity implements OnRemoteRenamedList
         menu.findItem(R.id.menu_debug).setVisible(Constants.DEBUG && !open);
         return true;
     }
-
 
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
@@ -354,7 +360,7 @@ public class MainActivity extends ToolbarActivity implements OnRemoteRenamedList
             if (ui.getLastVersion() <= 1520) {
                 MaterialDialog.Builder mb = new MaterialDialog.Builder(this);
                 mb.title("Message");
-                mb.content("We've made some improvements to how remotes are displayed. Since some users might prefer to keep their old layouts, updating to the new system is not done automatically. Please go to Edit Remote and organize them manually");
+                mb.content("We've made some improvements to how remotes are displayed. Since some users might prefer to keep their old layouts, updating to the new system is not done automatically. You can update your remotes by going to settings.");
                 mb.positiveText(android.R.string.ok);
                 mb.show();
             }
