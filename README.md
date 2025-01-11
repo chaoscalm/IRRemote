@@ -3,8 +3,9 @@
 ![a107e2da-50f7-41c5-a5ec-0875a472c5f8](https://github.com/user-attachments/assets/fab28020-99a3-4e65-bb71-77b3b2888290)
 
 
-**Remota Imperium** is a fork of [IR Remote](https://f-droid.org/en/packages/us.spotco.ir_remote/) that allows you to use your phone's built in IR transmitter to control your TV, cable box, blu ray, etc...
+**Remota Imperium** is a fork of [IR Remote](https://f-droid.org/en/packages/us.spotco.ir_remote/)
 [IR Remote Archived Repository](https://github.com/Divested-Mobile/IRRemote)
+
 
 ## Changelog for Remota Imperium
 
